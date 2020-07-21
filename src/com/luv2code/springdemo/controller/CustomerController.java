@@ -18,7 +18,7 @@ import com.luv2code.springdemo.service.CustomerService;
 @RequestMapping("/customer")
 public class CustomerController {
 
-	//need to inject the DAO
+	//need to inject the service
 	@Autowired
 	private CustomerService customerService;
 	
